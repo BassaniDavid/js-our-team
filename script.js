@@ -36,3 +36,7 @@ const teamMembers = [
     img: "img/female3.png"
   }
 ];
+
+// seleziono il container
+const containerElement = document.querySelector('.container')
+console.log(containerElement)
