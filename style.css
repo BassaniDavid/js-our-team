@@ -1,0 +1,20 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+header {
+    text-align: center;
+    padding: 40px;
+}
+
+h1{
+    font-weight: bolder;
+    font-size: 40px;
+    color: #e53170;
+    margin: 10px 0 50px 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
