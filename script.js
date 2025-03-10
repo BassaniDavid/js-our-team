@@ -43,7 +43,7 @@ createHtmlText (teamMembers)
 
 // funzione per rendere html ready un oggetto
 function createHtmlText (elements) {
-  let texts;
+  let texts = '';
 
   // seleziono ogni oggetto nell array
   for(let i = 0; i < elements.length; i++){
