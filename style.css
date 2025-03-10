@@ -59,3 +59,34 @@ h4{
     justify-content: space-between;
     margin: 10px 20px;
 }
+
+.formstyle{
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 20px 40px;
+    border-radius: 20px;
+    border: 3px solid rgba(0, 0, 0, 0.866);
+    background-color: rgba(0, 0, 0, 0.856);
+    color: whitesmoke;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+form *{
+    margin-bottom: 5px;
+}
+
+#submit{
+    margin-top: 20px;
+    max-width: 30%;
+    align-self: center;
+    background-color: #0289ff;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid #144b63;
+    font-weight: bold;
+}
