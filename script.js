@@ -41,8 +41,23 @@ const teamMembers = [
 const containerElement = document.querySelector('.container')
 console.log(containerElement)
 
-// creao funzione per creare HTML
-function createHtmlElement(element) {
+createHtmlText (teamMembers)
+
+// funzione per rendere html ready un oggetto
+function createHtmlText (elements) {
+
+  let texts;
+  for(let i = 0; i < elements.length; i++){
+    console.log(elements[i])
+
+  }
+
+
+}
+
+
+// funzione per creare HTML
+function createHtmlElement (element) {
   return `<div class="card">
                 <img src="${element.img}" alt="immagine di ${element.name}">
                 <div class="card-content">
