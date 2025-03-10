@@ -40,3 +40,15 @@ const teamMembers = [
 // seleziono il container
 const containerElement = document.querySelector('.container')
 console.log(containerElement)
+
+// creao funzione per creare HTML
+function createHtmlElement(element) {
+  return `<div class="card">
+                <img src="${element.img}" alt="immagine di ${element.name}">
+                <div class="card-content">
+                    <h2>${element.name}</h2>
+                    <h3>${element.role}</h3>
+                    <h4>${element.email}</h4>
+                </div>
+          \</div>`
+}
