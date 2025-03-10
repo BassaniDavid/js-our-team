@@ -39,21 +39,21 @@ const teamMembers = [
 
 // seleziono il container
 const containerElement = document.querySelector('.container')
-console.log(containerElement)
-
 createHtmlText (teamMembers)
 
 // funzione per rendere html ready un oggetto
 function createHtmlText (elements) {
   let texts;
+
   // seleziono ogni oggetto nell array
   for(let i = 0; i < elements.length; i++){
+
     // inserisco, tramite la prima funzione, gli elementi dell oggetto nel html precompilato e aggiungo per ogni iterazione il testo ad una variabile
     texts += createHtmlElement (elements[i])
   }
   console.log(texts)
-
-
+  // inserisco tutto il testo html generato nel container
+  containerElement.innerHTML = texts
 }
 
 
@@ -68,3 +68,5 @@ function createHtmlElement (element) {
                 </div>
           \</div>`
 }
+
+console.log(containerElement.innerHTML)
